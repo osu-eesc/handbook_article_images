@@ -1,0 +1,53 @@
+.view-id-images {
+  float: right;
+}
+
+.view-id-images .view-content {
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+.views-field-field-image-image-data {
+  color: #000000;
+}
+
+.view-images .views-row {
+  border: 1px #C8C8C8 solid;
+  background-color: #F1F1F1;
+  padding: 5px;
+  width: 210px;
+  text-align: left;
+  font-size: 11px;
+}
+
+.view-images .views-row:hover { 
+  border: 1px #d39c7f solid;
+}
+
+.view-images .views-row img {
+  border: 1px #C8C8C8 solid;
+}
+
+.view-images .field-content {
+  line-height: 140%;
+}
+
+.view-id-images .views-field-edit-node {
+  float: right;
+  margin-left: 2px;
+  margin-bottom: 2px;
+}
+
+.view-id-images .views-field-field-image-copyright-value {
+  text-align: right;
+  font-style: italic;
+  font-size: 90%;
+}
+
+.view-id-images .views-row {
+  margin-top: 10px;
+}
+
+.view-id-images .views-row-first {
+  margin-top: 0;
+}

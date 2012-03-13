@@ -1,0 +1,13 @@
+name = "Handbook Article Images"
+description = "Adds images to the handbook article pages. Includes ability to change order of images"
+core = "6.x"
+package = "PNW Handbooks"
+
+dependencies[] = "draggableviews"
+dependencies[] = "features"
+dependencies[] = "imagefield"
+dependencies[] = "nodereference_url"
+dependencies[] = "number"
+dependencies[] = "strongarm"
+dependencies[] = "views"
+dependencies[] = "views_attach"

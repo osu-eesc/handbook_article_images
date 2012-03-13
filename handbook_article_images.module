@@ -1,0 +1,20 @@
+<?php
+
+include_once('handbook_article_images.features.inc');
+
+/**
+ * Implementation of hook_init().
+ */
+function handbook_article_images_init() {
+  drupal_add_css(drupal_get_path('module', 'handbook_article_images') .'/theme/handbook-article-images.css');
+}
+
+function handbook_article_images_form_image_node_form_alter(&$form, &$form_state) {
+  $form['#validate'][] = 'handbook_article_images_validate';
+}
+
+function handbook_article_images_validate(&$form, &$form_state) {
+  if ($form_state['values']['field_image_description']['0']['value'] != '') {
+    $form_state['values']['field_image_image']['0']['data']['description'] = strip_tags($form_state['values']['field_image_description']['0']['value']);
+  }
+}
